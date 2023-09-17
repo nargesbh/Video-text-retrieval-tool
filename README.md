@@ -13,11 +13,11 @@ In this project, various variants of the Xclip model were employed to explore di
 - `microsoft/xclip-base-patch16`
 - `microsoft/xclip-large-patch14`
 
-The distinctions among these variants lie in their architectures, the number of patches used, and the training data employed.
+The distinctions among these variants lie in their architectures (the number of patches used).
 
 ### Understanding Xclip Model and Patching
 
-The Xclip model employs a technique called patching, which divides an input image into a grid of smaller rectangular regions or patches. Visual features are then extracted from each patch using a convolutional neural network (CNN). These visual features are combined with textual features extracted from the input text, resulting in a unified representation. In the context of the Xclip model, "patches" refer to the spatial regions of the input image that the CNN model uses for feature extraction.
+The Xclip model employs a technique called patching, which divides an input image into a grid of smaller rectangular regions or patches. Visual features are then extracted from each patch using a convolutional neural network. These visual features are combined with textual features extracted from the input text, resulting in a unified representation. In the context of the Xclip model, "patches" refer to the spatial regions of the input image that the CNN model uses for feature extraction.
 
 #### Variant Specifics:
 - `microsoft/xclip-base-patch32` and `microsoft/xclip-base-patch16` have a base architecture with 32 and 16 patches, respectively, which contributes to their unique capabilities.
@@ -42,8 +42,6 @@ The heart of the project, this component implements the retrieval program. It ta
 ### Component 5: User Interface
 The user interface component provides an intuitive platform for users to input their queries and visualize the retrieved scenes. It enhances the usability of the retrieval tool.
 
-This README provides an overview of each component and includes screenshots of the user interface, detailed explanations of the underlying algorithms, and insights into the CNN image processing techniques employed by Xclip.
-
-For in-depth details and instructions on how to use each component, please refer to the respective documentation within this repository.
+The report of this project provides an overview of each component and includes screenshots of the user interface and explanations of the underlying algorithms.
 
 Thank you for your interest in our Video-Text Retrieval project!
