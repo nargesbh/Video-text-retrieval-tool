@@ -1,4 +1,4 @@
-# Video-Text Retrieval Project README
+# Video-Text Retrieval Project 
 
 ## Introduction
 
